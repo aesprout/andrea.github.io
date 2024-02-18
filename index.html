@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+<style>
+    body {
+        font-family: 'Times New Roman', serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    .container {
+        width: 50%;
+        margin: 20px auto;
+    }
+    .header {
+        text-align: center;
+    }
+    .name {
+        font-size: 30px;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+    .contact {
+        margin-top: 5px;
+    }
+    section {
+        margin-top: 20px;
+    }
+    .section-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .section-title::after {
+        content: "";
+        display: block;
+        border-bottom: 2px solid black;
+        margin-top: 3px;
+    }
+    .content, .bullet-point {
+        font-size: 18px; /* Increased font size for content and bullet points */
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        margin-bottom: 10px; /* Increase spacing for readability */
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .italic {
+        font-style: italic;
+    }
+    .bullet-point::before {
+        content: "• ";
+        font-size: 24px; /* Increased bullet point size */
+    }
+  .experience-list-item {
+        overflow: hidden; /* This ensures that the containing li respects the floated date */
+    }
+
+    .date-right {
+        float: right; /* This floats the date to the right */
+        font-style: italic; /* Italicize the date */
+        font-weight: normal;
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <p class="name">Andrea Ho</p>
+            <p class="contact">Irvine, CA 92617 | anhlh@uci.edu | (XXX) XXX-XXX</p>
+        </header>
+        <section>
+            <p class="section-title bold">EDUCATION</p>
+            <div class="education-container">
+                <div class="education-info">
+                    <p class="content bold">University of California, Irvine<span class="date-right">Expected March 2024</span></p>
+                    <p class="content"> <i>Bachelor of Science in Public Health Sciences<br>
+                        Minor in Health Informatics</i><br>
+                        <span class="bold">Cumulative GPA:</span> 3.82 | Dean's List 9x<br>
+                        <span class="bold">Select Courses:</span> Data Analytics, Statistics, Health Informatics, Health Policy, Public Health Corporate Programs
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <p class="section-title bold">EXPERIENCE</p>
+            <ul>
+    <li> <span class="experience-list-item bold">
+        Dr. Lifestyle Clinic</span>, Newport Beach, CA
+        <span class="date-right italic">October 2023 - December 2023</span>
+    </li>
+                <li class="italic">Health Administration Intern</li>
+                <li class="content bullet-point">Spearheaded front office operations, managed Electronic Medical Records (EMR/EHR), ensured HIPAA compliance, and cultivated positive patient-provider relations, while also executing precise recording of vitals</li>
+                 <li class="content bullet-point">Facilitate effective patient-provider communication, contribute to healthcare marketing strategies, and
+implement health education and promotion initiatives</li>
+              <br>
+    <li> <span class="experience-list-item bold">
+        Public Health Informatics & Technology Program Internship</span>, Alhambra, CA 
+        <span class="date-right italic">June 2023 - September 2023</span>
+    </li>                <li class="italic">Health Informatics Intern</li>
+                <li class="content bullet-point">Collected residential data, conducted an extensive and sophisticated data analysis using Microsoft Excel, and
+crafted visually captivating graphical representations, complemented by meticulously detailed reports</li>
+                         <li class="content bullet-point">Organized and conducted outreach events, actively engaging local residents to promote and encourage their
+participation in hosting air sensors in areas of concern to gather critical data for the Air Monitoring Study</li>
+                         <li class="content bullet-point">Collaborated with a team of interns to conceptualize a digital media project focused on educating the
+community about health concerns related to air quality</li>
+              <br>
+                         <li> <span class="experience-list-item bold"> Lebron Lab</span> - PI Alana Lebron, PHD
+        <span class="date-right italic">October 2022 - June 2023</span>
+    </li>
+                <li class="italic">Research Assistant</li>
+                <li class="content bullet-point">Piloted lab's first attempt at a new qualitative data analysis methodology (flexible coding) and analyzed data
+from interviews and focus groups using Atlas.ti to determine roadmaps to identify challenges encountered by
+community health workers</li>
+                <li class="content bullet-point"> Proposed concepts for a digital archive that capture stories about the community health worker experience
+during the pandemic and report finding in the weekly meeting</li>
+                <li class="content bullet-point"> Provided technical support (recording, notetaking, etc.) on interviews and support groups to address health
+inequalities, resulting in improved accessibility, documentation, and understanding of the challenges faced by
+underserved communities.</li>
+              <br>
+                         <li> <span class="experience-list-item bold"> UCI Program in Public Health</span>, Irvine, CA
+        <span class="date-right italic">June 2022 - September 2022</span>
+    </li>
+                <li class="italic">Public Health Chat Representative</li>
+                <li class="content bullet-point">Provided answers to frequently asked questions about COVID-19 and compiled online resources used to
+clarify misconceptions regarding COVID-19 via a set of predetermined responses</li>
+                <li class="content bullet-point"> Created consuming media graphics such as engaging infographics using Canva that enhance COVID-19
+knowledge</li>
+                <li class="content bullet-point"> Translated Chatline hotkeys to Vietnamese to break the language barrier and spread knowledge and useful
+information regarding COVID-19 to the Vietnamese community</li>
+        </section>
+        <section>
+            <p class="section-title bold">SKILLS & INTERESTS</p>
+            <p> <span class="content bold">Computer </span> Microsoft Office (Excel, Word, PowerPoint), Google Suites (Google Docs, Google Slides, Google Sheets, Google Drive), JMP, Atlas.ti, HIPAA Compliance, Cerbo<br>
+              <span class="bold">Interests:</span> Reading, Baking, and Crochet
+            </p>
+        </section>
+    </div>
+</body>
+</html>
